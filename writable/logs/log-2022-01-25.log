@@ -1,0 +1,34 @@
+CRITICAL - 2022-01-25 07:37:53 --> syntax error, unexpected ','
+#0 C:\Bitnami\wappstack-7.4.11-0\apache2\htdocs\StockSystem\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile()
+#1 C:\Bitnami\wappstack-7.4.11-0\apache2\htdocs\StockSystem\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+#3 [internal function]: spl_autoload_call()
+#4 C:\Bitnami\wappstack-7.4.11-0\apache2\htdocs\StockSystem\system\CodeIgniter.php(790): class_exists()
+#5 C:\Bitnami\wappstack-7.4.11-0\apache2\htdocs\StockSystem\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->startController()
+#6 C:\Bitnami\wappstack-7.4.11-0\apache2\htdocs\StockSystem\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#7 C:\Bitnami\wappstack-7.4.11-0\apache2\htdocs\StockSystem\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-01-25 07:44:38 --> Undefined variable: newStock
+#0 C:\Bitnami\wappstack-7.4.11-0\apache2\htdocs\StockSystem\app\Controllers\Dashboard.php(249): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 C:\Bitnami\wappstack-7.4.11-0\apache2\htdocs\StockSystem\app\Controllers\Dashboard.php(274): App\Controllers\Dashboard->updateStockProduct()
+#2 C:\Bitnami\wappstack-7.4.11-0\apache2\htdocs\StockSystem\system\CodeIgniter.php(825): App\Controllers\Dashboard->buyProduct()
+#3 C:\Bitnami\wappstack-7.4.11-0\apache2\htdocs\StockSystem\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#4 C:\Bitnami\wappstack-7.4.11-0\apache2\htdocs\StockSystem\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#5 C:\Bitnami\wappstack-7.4.11-0\apache2\htdocs\StockSystem\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-01-25 10:52:28 --> Undefined variable: newStock
+#0 C:\Bitnami\wappstack-7.4.11-0\apache2\htdocs\StockSystem\app\Controllers\Dashboard.php(249): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 C:\Bitnami\wappstack-7.4.11-0\apache2\htdocs\StockSystem\app\Controllers\Dashboard.php(274): App\Controllers\Dashboard->updateStockProduct()
+#2 C:\Bitnami\wappstack-7.4.11-0\apache2\htdocs\StockSystem\system\CodeIgniter.php(825): App\Controllers\Dashboard->buyProduct()
+#3 C:\Bitnami\wappstack-7.4.11-0\apache2\htdocs\StockSystem\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#4 C:\Bitnami\wappstack-7.4.11-0\apache2\htdocs\StockSystem\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#5 C:\Bitnami\wappstack-7.4.11-0\apache2\htdocs\StockSystem\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-01-25 10:57:46 --> Undefined variable: newStock
+#0 C:\Bitnami\wappstack-7.4.11-0\apache2\htdocs\StockSystem\app\Controllers\Dashboard.php(249): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 C:\Bitnami\wappstack-7.4.11-0\apache2\htdocs\StockSystem\app\Controllers\Dashboard.php(274): App\Controllers\Dashboard->updateStockProduct()
+#2 C:\Bitnami\wappstack-7.4.11-0\apache2\htdocs\StockSystem\system\CodeIgniter.php(825): App\Controllers\Dashboard->buyProduct()
+#3 C:\Bitnami\wappstack-7.4.11-0\apache2\htdocs\StockSystem\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#4 C:\Bitnami\wappstack-7.4.11-0\apache2\htdocs\StockSystem\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#5 C:\Bitnami\wappstack-7.4.11-0\apache2\htdocs\StockSystem\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
