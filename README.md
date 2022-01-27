@@ -1,3 +1,3 @@
-# Stock System
+# Inventory Management System for BikeShop Oran
 
 
