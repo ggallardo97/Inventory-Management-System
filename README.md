@@ -1,3 +1,3 @@
-# Inventory Management System for BikeShop Oran
+# Inventory Management System (CI4)
 
 
